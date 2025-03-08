@@ -101,7 +101,11 @@ MonoBehaviour:
   currentLevel: 1
   maxLevel: 3
   buffType: 0
-  buffLevelSOs: []
+  buffLevelSOs:
+  - {fileID: 11400000, guid: 0f87f4d1d34e016419503cc53aabcea7, type: 2}
+  - {fileID: 11400000, guid: 04c6fc95b80ffd241910de5bdcfb3857, type: 2}
+  - {fileID: 11400000, guid: 2dad5abee956ef142acf3dce12aa64ef, type: 2}
+  - {fileID: 11400000, guid: 45278b0844718b04e98b158d104768a5, type: 2}
   increaseHealthPercentage: 10
 --- !u!1 &4441455267972880974
 GameObject:
@@ -463,3 +467,4 @@ MonoBehaviour:
   currentWeapons: []
   currentBuffs: []
   numberOfRandomizedSkills: 3
+  firstWeapon: LaserGun
